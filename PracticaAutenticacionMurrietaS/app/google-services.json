@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "567446495311",
+    "project_id": "ejemplologin-3a74e",
+    "storage_bucket": "ejemplologin-3a74e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567446495311:android:a01312d7f72ae637eb0a3a",
+        "android_client_info": {
+          "package_name": "murrieta.sebastian.practicaautenticacionmurrietas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRo9nT-eq8PgiAeaEbAajMlQ6amIn_mZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
