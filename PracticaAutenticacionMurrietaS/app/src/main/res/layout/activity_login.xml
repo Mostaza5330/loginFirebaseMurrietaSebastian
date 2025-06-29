@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- activity_login.xml -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,7 +16,6 @@
         android:padding="24dp"
         android:layout_gravity="center_vertical">
 
-        <!-- Logo/Icono -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="120dp"
             android:layout_height="120dp"
@@ -37,14 +35,12 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Título -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bienvenido"
             style="@style/TitleText" />
 
-        <!-- Campo de Email -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +58,6 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Campo de Contraseña -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,7 +76,6 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Mensaje de Error -->
         <TextView
             android:id="@+id/tvError"
             android:layout_width="match_parent"
@@ -91,7 +85,6 @@
             tools:text="Error de autenticación"
             tools:visibility="visible" />
 
-        <!-- Botón de Login -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
@@ -100,7 +93,6 @@
             style="@style/CustomButton"
             android:layout_marginTop="32dp" />
 
-        <!-- Botón para Registro -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnGoRegister"
             android:layout_width="wrap_content"
